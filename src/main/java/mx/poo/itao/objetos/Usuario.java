@@ -14,11 +14,11 @@ import lombok.experimental.SuperBuilder;
 @NoArgsConstructor
 public class Usuario {
     private String nombre;
-    private int ambiente;
-    private int nivelEnergia;
-    private int preferenciaSocial;
-    private int habilidadEquipo;
-    private int habilidadAgua;
+    private Integer ambiente;
+    private Integer nivelEnergia;
+    private Integer preferenciaSocial;
+    private Integer habilidadEquipo;
+    private Integer habilidadAgua;
 
     public void pedirDatos() {
         Scanner sc = new Scanner(System.in);
