@@ -22,10 +22,11 @@ public class Usuario {
 
     public void pedirDatos() {
         Scanner sc = new Scanner(System.in);
+        
 
         System.out.println("¿Cuál es tu nombre?");
         setNombre(sc.nextLine());
-
+System.out.println("ESCRIBE 1, 2 O 3 SEGUN SEA EL CASO PARA RESPONDER LAS PREGUNTAS ");
         System.out.println("¿Prefieres actividades en...? \n1. Exterior \n2. Interior");
         setAmbiente(sc.nextInt());
 
